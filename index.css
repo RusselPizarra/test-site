@@ -1,0 +1,222 @@
+.font-playfair{
+    font-family: 'Playfair Display', serif;
+}
+.font-karla{
+    font-family: 'Karla', serif;
+}
+.title-splash{
+    font-weight: 400;
+}
+
+.redirect:hover{
+    cursor: pointer;
+}
+.nav-top{
+    padding: 10px;
+}
+
+.generic-margin{
+    padding: 35px;
+}
+
+.services-carousel{
+    position: relative;
+    text-align: center;
+    color: white;
+}
+.services-carousel .text-centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 3;
+}
+.services-carousel .text-centered.sub{
+    position: absolute;
+    margin-top: 10rem;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 3;
+}
+.services-carousel .overlay-btn{
+    position: absolute;
+    margin-top: 15rem;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 3;
+}
+.info-carousel{
+    position: relative;
+    text-align: center;
+    color: rgb(34, 34, 34);
+}
+.info-carousel .text-centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 3;
+}
+
+.overlay{
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  background-color: rgba(0,0,0,0.5); /* Black background with opacity */
+  z-index: 2;
+}
+.carousel-control-prev{
+    z-index: 3;
+}
+.carousel-control-next{
+    z-index: 3;
+}
+#carouselExample{
+    overflow:hidden
+}
+#carousel-info{
+    overflow:hidden
+}
+.carousel-item > img{
+    width: 100%;
+    height: 75%;
+    margin-top: -20rem;
+}
+.appointment{
+    margin: 7px;
+    margin-right: 10px;
+    width:20%;
+    justify-content: center;
+}
+.appointment > *{
+    margin: 7px;
+}
+
+.search-bar{
+    margin-left: 25px;
+    margin-bottom: 7px;
+    margin-top: 7px;
+    width: 60%;
+}
+.search-bar > *{  
+    margin-left: 25px;
+}
+.search-bar > input[type=text]{
+    height: 70%;
+    min-width: 500px;
+    border: none;
+    background-color: transparent;
+    color: white;
+}
+.search-bar > input[type=text]:focus{
+    outline: none;
+}
+.search-bar > input[type=text]::placeholder{
+    color: white;
+}
+.picture-container > * {
+    margin: 10px;
+}
+.picture-container .picture-list li{
+    margin: 6px;
+}
+.img-med{
+    width:35%;
+}
+.selling-process > *{
+    margin: 10px;
+}
+.buying-process > *{
+    margin: 10px;
+}
+.buying-process > img{
+    margin-left: none;
+}
+img.hexagon-big{
+    height: 350px; /* adjust to control the size  */
+    aspect-ratio: cos(30deg);
+    clip-path: polygon(-50% 50%,50% 100%,150% 50%,50% 0);
+    background: #3B8686;
+}
+.hexagon{
+    height: 100px; /* adjust to control the size  */
+    aspect-ratio: cos(30deg);
+    clip-path: polygon(-50% 50%,50% 100%,150% 50%,50% 0);
+}
+.hexagon.none{
+    height: 50px; /* adjust to control the size  */
+    aspect-ratio: cos(30deg);
+    clip-path: polygon(-50% 50%,50% 100%,150% 50%,50% 0);
+    background: transparent;
+}
+.vl {
+    border-left: 3px solid rgb(54, 56, 54);
+    border-radius: 25px;
+    max-height: 500px;
+}
+.process-steps .d-flex> *{
+    margin: 10px;
+}
+.process-steps-text{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    padding: 15px;
+    height: 50%;
+    margin-top: 6.5%!important;
+}
+.partner-window > *{
+    margin: 15px;
+}
+.partner-img{
+    position: relative;
+    height: 325px;
+    width: 325px;
+}
+.partner-img.over{
+    position: relative!important;
+    margin-top: -6rem;;
+    margin-left: -12rem;
+}
+.partner-logo{
+    margin: 10px;
+    max-width: 160px;
+    max-height: 320px;
+    align-self: center;
+}
+.img-span{
+    width: 100%;
+    height: 75%;
+    margin-top: -10rem;
+}
+.newsletter-input{
+        min-width: 500px;
+        border-top: none;
+        border-left: none;
+        border-right: none;
+        background-color: transparent;
+        color: rgb(0, 0, 0);
+}
+.subtxt{
+    font-size: 15px;
+}
+.icons-coll > *{
+    margin: 10px;
+}
+.logo-sm{
+    height: 50px;
+    width: 50px;
+}
+
+a {
+    color: #0060B6;
+    text-decoration: none;
+}
+
+a:hover {
+    color:#00A0C6; 
+    text-decoration:none; 
+    cursor:pointer;  
+}
