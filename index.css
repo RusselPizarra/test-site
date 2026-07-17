@@ -1,0 +1,59 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Pixelify Sans'!important;
+    color: black!important;
+    scroll-behavior: smooth;
+    text-decoration: none;
+    list-style: none;
+}
+html {
+    scroll-behavior: smooth;
+  }
+body{
+    background-image: url(assets/img/Stream\ bg.png);
+    background-repeat: no-repeat;
+    background-size:     cover;                      /* <------ */
+    background-position: center center; 
+    background-attachment: fixed;
+}
+.sec-format-normal{
+    margin-top: 128px;
+}
+.sec-format-normal div{
+    
+}
+/*Images*/
+.logo{
+    width: 32px;
+    height: 32px;
+}
+
+.profile-img img{
+    height: 350px;
+    width: auto;
+}
+/*Nav bar*/
+.navbar-design{
+    background-image: linear-gradient(to left, #eac404,#FFEA61);
+}
+.navbar-dropdown{
+    background-color: #FFEA61!important;
+}
+.navbar-dropdown li a:hover{
+    background-color: #eac404!important;
+    color: white!important;
+}
+/*Text assets*/
+.sign-board{
+    position: relative;
+    text-align: center;
+}
+.sign-text{
+    position:absolute;
+    margin: 75px;
+    margin-left: 150px;
+    color: rgb(242, 242, 242)!important;
+    font-size: 15px;
+}
